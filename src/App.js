@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import Cart from './components/Cart/Cart';
-import Shop from './components/Shop/Shop';
+import React, { Component } from "react";
+import Cart from "./components/Cart/Cart";
+import Shop from "./components/Shop/Shop";
 
 class App extends Component {
-	render() { 
+	render() {
 		return (
 			<>
 				<Cart></Cart>
@@ -12,5 +12,5 @@ class App extends Component {
 		);
 	}
 }
- 
+
 export default App;
